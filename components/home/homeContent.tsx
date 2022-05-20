@@ -111,37 +111,6 @@ let HomeContent = () => {
           </CardActionArea>
         </MyCard>
       </a>
-
-      <a href="https://mui.com/" target="_blanck">
-        <MyCard>
-          <CardActionArea>
-            <CardContent sx={{ padding: "1.5rem" }}>
-              <Info variant="h2" sx={{ fontFamily: "Tahoma" }}>
-                Design &rarr;
-              </Info>
-              <Paragraph variant="body1" sx={{ fontFamily: "Tahoma" }}>
-                Move faster with {app} intuitive UI tools with Material Ui.
-              </Paragraph>
-            </CardContent>
-          </CardActionArea>
-        </MyCard>
-      </a>
-
-      <a href="https://www.mongodb.com/" target="_blanck">
-        <MyCard>
-          <CardActionArea>
-            <CardContent sx={{ padding: "1.5rem" }}>
-              <Info variant="h2" sx={{ fontFamily: "Tahoma" }}>
-                Database &rarr;
-              </Info>
-              <Paragraph variant="body1" sx={{ fontFamily: "Tahoma" }}>
-                Working with data {wilcard} have to be difficult when using
-                MongoDb.
-              </Paragraph>
-            </CardContent>
-          </CardActionArea>
-        </MyCard>
-      </a>
     </div>
   );
 };
