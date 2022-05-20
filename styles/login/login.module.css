@@ -1,0 +1,84 @@
+.skeletonWrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 90%;
+}
+@media screen and (min-width: 600px) {
+  .card {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .card {
+    max-width: 345px;
+  }
+}
+
+.cardMedia {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  width: 100%;
+  margin: 1% auto;
+  border-radius: 3%;
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .button {
+    width: 80%;
+  }
+}
+
+.btnGoogle {
+  width: 100%;
+  background-color: #f44336;
+}
+.btnGoogle:hover {
+  background-color: #e53935;
+}
+
+.btnGithub {
+  width: 100%;
+  background-color: #4caf50;
+}
+.btnGithub:hover {
+  background-color: #43a047;
+}
+
+.btnFacebook {
+  width: 100%;
+  background-color: #2196f3;
+}
+.btnFacebook:hover {
+  background-color: #1e88e5;
+}
