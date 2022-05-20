@@ -25,7 +25,11 @@ let ListComponent = () => {
       <List color="Primary">
         <ListItemText>
           <Typography
-            sx={{ fontFamily: "Tahoma", fontWeight: "bold" }}
+            sx={{
+              fontFamily: "Tahoma",
+              fontWeight: "bold",
+              fontStyle: "italic",
+            }}
             color="primary"
           >
             Application
@@ -69,7 +73,7 @@ let ListComponent = () => {
       <Divider sx={{ mb: 3 }} />
       <ListItemText>
         <Typography
-          sx={{ fontFamily: "Tahoma", fontWeight: "bold" }}
+          sx={{ fontFamily: "Tahoma", fontWeight: "bold", fontStyle: "italic" }}
           color="primary"
         >
           Projects
